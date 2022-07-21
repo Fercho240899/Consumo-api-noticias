@@ -1,0 +1,20 @@
+
+.grid{
+    display: grid;
+}
+
+.row{
+    --bs-gutter-x: 1rem;
+    --bs-gutter-y: 3.0rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    
+    min-height: 750px;
+    min-width: -webkit-fill-available;
+}
+
